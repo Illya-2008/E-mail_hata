@@ -5,8 +5,8 @@ body{
  
 table{ 
     border-collapse: collapse; 
-    padding-top: 15px; 
     margin: 0; 
+    width: 100%;
 } 
  
 .background{ 
@@ -60,6 +60,7 @@ figcaption{
  
 .main-td{ 
     padding: 10px 15px; 
+    width: 600px;
 } 
  
 .text{ 
@@ -80,6 +81,10 @@ figcaption{
 .td-button{ 
     padding: 30px 20px 40px; 
 } 
+
+.proposition{
+    width: 100%;
+}
  
 .button{ 
     width: 180px; 
@@ -135,8 +140,10 @@ h3{
 } 
  
 .discount{ 
-    background-color: #fd8300; 
     padding: 20px 20px; 
+    background-image: url(https://raw.githubusercontent.com/slavik1503/email-hata/master/img/bg2.png);
+    background-color: #fd8300;
+    background-repeat: repeat;
 } 
  
 .text5{ 
@@ -158,7 +165,10 @@ h3{
  
 .last-button{ 
     background-color: #fd8300; 
-    padding: 10px 200px 40px; 
+    padding: 10px 260px 40px; 
+    background-image: url(https://raw.githubusercontent.com/slavik1503/email-hata/master/img/bg2.png);
+    background-color: #fd8300;
+    background-repeat: repeat;
 } 
  
 .last-text{ 
@@ -170,7 +180,7 @@ h3{
  
 .footer{ 
     background-color: #08081a; 
-    padding: 20px 140px; 
+    padding: 20px 200px; 
 } 
  
 .last-line{ 
@@ -189,5 +199,9 @@ h3{
 }
 
 .right-td{
-    padding-right: 40px 0;
+    padding-left: 40px;
+}
+
+.line{
+    border-bottom: solid 1px #dcdce5;
 }
